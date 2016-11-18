@@ -100,10 +100,12 @@ h2 {
 
 .beer-pic:before {
   position: absolute;
-  content: "test";
-  transform: rotate(-10deg);
-  margin-left: 720px;
-  margin-top: 70px;
+  content: "\\hóp-ō-'ther-mē-a\\";
+  margin-left: 670px;
+  margin-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  transform: rotate(-7deg);
+  color: #36422f;
 }
 
 .description {
