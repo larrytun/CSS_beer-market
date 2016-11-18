@@ -6,11 +6,16 @@
 
 h1 {
   font-family: 'Raleway', sans-serif;
+  color: #991501;
+  font-size: 40px;
 }
 
 h2 {
   font-weight: lighter;
-  color: #991501
+  color: #130906;
+  font-size: 18px;
+  margin-top: -20px;
+  position: absolute;
 }
 
 .container {
