@@ -98,6 +98,14 @@ h2 {
   width: 10px;
 }
 
+.beer-pic:before {
+  position: absolute;
+  content: "test";
+  transform: rotate(-10deg);
+  margin-left: 720px;
+  margin-top: 70px;
+}
+
 .description {
   font-family: 'Raleway', sans-serif;
   position: absolute;
