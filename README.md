@@ -1,5 +1,7 @@
 # _Beer Marketplace_
 
+![screenshot of page](img/Screen-Shot.png)
+
 #### _CSS project for Epicodus, 11.18.2016_
 
 #### By _**Larry Dean Tunseth II**_

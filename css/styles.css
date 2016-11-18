@@ -18,6 +18,27 @@ h2 {
   position: absolute;
 }
 
+table {
+  border-collapse: collapse;
+  margin-left: 50px;
+  position: absolute;
+  margin-top: -190px;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #36422f;
+}
+
+td {
+  padding-left: 100px;
+}
+
 .container {
   width: 1200px;
   height: 800px;
@@ -53,14 +74,6 @@ h2 {
 
 .links {
   margin-right: 250px;
-}
-
-#arrow {
-  width: 36px;
-  height: 18px;
-  margin-top: 1px;
-  margin-left: 492px;
-  transform: rotate(180deg);
 }
 
 .left-divider {
@@ -160,23 +173,10 @@ h2 {
   margin-left: 73px;
 }
 
-table {
-  border-collapse: collapse;
-  margin-left: 50px;
-  position: absolute;
-  margin-top: -190px;
-}
-
-td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-  color: white;
-  background-color: #36422f;
-}
-
-td {
-  padding-left: 100px;
+#arrow {
+  width: 36px;
+  height: 18px;
+  margin-top: 1px;
+  margin-left: 492px;
+  transform: rotate(180deg);
 }
