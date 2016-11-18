@@ -47,11 +47,15 @@ h2 {
   font-weight: normal;
 }
 
+.nav-link:hover {
+  opacity: 0.65;
+}
+
 .links {
   margin-right: 250px;
 }
 
-.arrow {
+#arrow {
   width: 36px;
   height: 18px;
   margin-top: 1px;
@@ -76,10 +80,22 @@ h2 {
   background-color: #36422f;
 }
 
-#hopothermia {
+.hopothermia {
   width: 420px;
   margin-top: 110px;
   margin-left: 700px;
+}
+
+.beer-pic {
+  position: relative;
+}
+
+.beer-pic:after {
+  content: url("../img/Beer-Powered.png");
+  position: absolute;
+  margin-left: -450px;
+  margin-top: 380px;
+  width: 10px;
 }
 
 .description {
@@ -112,18 +128,26 @@ h2 {
   position: relative;
 }
 
+.gallery img:hover {
+  opacity: 0.65;
+}
+
 .right, .left {
   position: absolute;
-  margin-top: 595px;
+  margin-top: 85px;
+}
+
+.right:hover, .left:hover {
+  opacity: 0.65;
 }
 
 .right {
-  margin-left: -64px;
+  margin-left: 1053px;
 }
 
 .left {
-  margin-left: -1050px;
   transform: rotate(180deg);
+  margin-left: 73px;
 }
 
 table {
