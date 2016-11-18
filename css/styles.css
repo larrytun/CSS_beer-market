@@ -112,6 +112,20 @@ h2 {
   position: relative;
 }
 
+.right, .left {
+  position: absolute;
+  margin-top: 595px;
+}
+
+.right {
+  margin-left: -64px;
+}
+
+.left {
+  margin-left: -1050px;
+  transform: rotate(180deg);
+}
+
 table {
   border-collapse: collapse;
   margin-left: 50px;
