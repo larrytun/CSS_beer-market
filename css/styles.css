@@ -76,7 +76,7 @@ h2 {
   background-color: #36422f;
 }
 
-.hopothermia {
+#hopothermia {
   width: 420px;
   margin-top: 110px;
   margin-left: 700px;
@@ -90,12 +90,45 @@ h2 {
   margin-top: 110px;
 }
 
+.goods {
+  text-align: center;
+  font-size: 20px;
+  background-color: #991501;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.gallery {
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.gallery img {
+  float: left;
+  width: 170px;
+  border: medium solid  #991501;
+  margin-left: 10px;
+  position: relative;
+}
+
 table {
   border-collapse: collapse;
+  margin-left: 50px;
+  position: absolute;
+  margin-top: -190px;
 }
 
 td, th {
   border: 1px solid #999;
   padding: 0.5rem;
   text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #36422f;
+}
+
+td {
+  padding-left: 100px;
 }
