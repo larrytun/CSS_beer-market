@@ -8,7 +8,7 @@
 
 ## Description
 
-_It is a simple page displaying a beer using only CSS and HTML_
+_It is a simple page displaying a beer using only CSS and HTML. Design for Alaskan Brewing_
 
 ## Setup/Installation Requirements
 
