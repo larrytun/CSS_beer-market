@@ -8,6 +8,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: #991501;
   font-size: 40px;
+  text-shadow: 3px 3px 6px #a5a5a5;
 }
 
 h2 {
@@ -109,6 +110,7 @@ td {
   margin-left: -450px;
   margin-top: 380px;
   width: 10px;
+  filter: drop-shadow(5px 3px 5px #222);
 }
 
 .beer-pic:before {
@@ -119,6 +121,7 @@ td {
   font-family: 'Raleway', sans-serif;
   transform: rotate(-7deg);
   color: #36422f;
+  text-shadow: 3px 3px 6px #a5a5a5;
 }
 
 .description {
