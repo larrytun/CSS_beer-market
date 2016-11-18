@@ -1,3 +1,67 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 h1 {
-  color: red;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  height: 800px;
+  background-color: #e8e4d7;
+}
+
+.header {
+  width: 1200px;
+  height: 82px;
+  background-color: #36422f;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.nav-link {
+  float: right;
+  margin-right: 50px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 40px;
+  font-weight: normal;
+}
+
+.links {
+  margin-right: 250px;
+}
+
+.arrow {
+  width: 36px;
+  height: 18px;
+  margin-top: 1px;
+  margin-left: 492px;
+  transform: rotate(180deg);
+}
+
+.left-divider {
+  height: 18px;
+  width: 492px;
+  margin-top: 82px;
+  position: absolute;
+  background-color: #36422f;
+}
+
+.right-divider {
+  height: 18px;
+  width: 672px;
+  margin-top: 82px;
+  position: absolute;
+  margin-left: 528px;
+  background-color: #36422f;
 }
